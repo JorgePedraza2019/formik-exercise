@@ -37,7 +37,8 @@ function App() {
         {formik.errors.emailField ?
           <div id='emailError' style={{ color: 'red' }}>
             {formik.errors.emailField}
-          </div> :
+          </div>
+          :
           null
         }
         <div>
@@ -53,12 +54,12 @@ function App() {
         {formik.errors.pswField ?
           <div id='pswError' style={{ color: 'red' }}>
             {formik.errors.pswField}
-          </div> :
+          </div>
+          :
           null
         }
         <button
           id='submitBtn'
-          name='submitBtn'
           type='submit'>
           Submit
         </button>
