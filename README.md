@@ -6,7 +6,7 @@ Project validations include when any field is empty or when the mail field is no
 
 ## How to Run:
 To run the project locally, follow the next steps:
-1. Downloaded the project.
+1. Download the project.
 2. Open the project with your IDE, for example: Visual Studio Code.
 3. Install the libraries using the following command in your IDE terminal (npm install).
 4. To run the project use the following command (npm start)
